@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Data Pribadi | Sistem Informasi Akademik Universitas Sriwijaya</title>
+    <!-- plugins:css -->
+    <link rel="stylesheet" href="../../vendors/feather/feather.css" />
+    <link rel="stylesheet" href="../../vendors/ti-icons/css/themify-icons.css" />
+    <link rel="stylesheet" href="../../vendors/css/vendor.bundle.base.css" />
+    <!-- endinject -->
+    <!-- Plugin css for this page -->
+    <link rel="stylesheet" href="../../vendors/select2/select2.min.css" />
+    <link rel="stylesheet" href="../../vendors/select2-bootstrap-theme/select2-bootstrap.min.css" />
+    <!-- End plugin css for this page -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="../../css/vertical-layout-light/style.css" />
+    <link rel="stylesheet" href="../../vendors/mdi/css/materialdesignicons.min.css" />
+    <link rel="stylesheet" href="../../css/style.css" />
+    <!-- endinject -->
+    <link rel="shortcut icon" href="../../images/unsri.png" />
+  </head>
+  <body>
+    <div class="container-scroller">
+      <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
+        <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
+          <a class="navbar-brand brand-logo mr-5 d-flex flex-row align-items-center" href="../../index.html">
+            <img src="../../images/unsri.png" class="mr-2" alt="logo" />
+            <h4 class="pt-2">SIMAK UNSRI</h4>
+          </a>
+        </div>
+        <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
+          <ul class="navbar-nav navbar-nav-right">
+            <li class="nav-item nav-profile dropdown">
+              <button class="btn btn-sm btn-light bg-white" type="button">Hari ini (24 November 2021)</button>
+            </li>
+          </ul>
+          <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
+            <span class="icon-menu"></span>
+          </button>
+        </div>
+      </nav>
+      <div class="container-fluid page-body-wrapper">
+        <nav class="sidebar sidebar-offcanvas" id="sidebar">
+          <ul class="nav">
+            <li class="nav-item text-center mb-4">
+              <img src="../../images/faces/face1.jpg" class="rounded-pill mb-3" alt="" />
+              <h5>Bambang Pamungkas</h5>
+              <p class="text-muted">09031282227001</p>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../../index.html">
+                <i class="mdi mdi-apps menu-icon"></i>
+                <span class="menu-title">Dashboard</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="data-pribadi.html">
+                <i class="mdi mdi-account-circle menu-icon"></i>
+                <span class="menu-title">Data Pribadi</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="collapse" href="#form-elements" aria-expanded="false" aria-controls="form-elements">
+                <i class="mdi mdi-account-card-details menu-icon"></i>
+                <span class="menu-title">Data Akademik</span>
+                <i class="menu-arrow"></i>
+              </a>
+              <div class="collapse" id="form-elements">
+                <ul class="nav flex-column sub-menu">
+                  <li class="nav-item"><a class="nav-link" href="kartu-rencana-studi.html">Kartu Rencana Studi</a></li>
+                  <li class="nav-item"><a class="nav-link" href="kartu-hasil-studi.html">Kartu Hasil Studi</a></li>
+                  <li class="nav-item"><a class="nav-link" href="transkrip-nilai.html">Transkrip Nilai</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="suliet.html">
+                <i class="mdi mdi-book-open menu-icon"></i>
+                <span class="menu-title">SULIET / USEPT</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pendaftaran-kkn.html">
+                <i class="mdi mdi-account-multiple menu-icon"></i>
+                <span class="menu-title">Pendaftaran KKN</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="setting-password.html">
+                <i class="mdi mdi-settings menu-icon"></i>
+                <span class="menu-title">Setting Password</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../samples/login.html">
+                <i class="mdi mdi-logout menu-icon"></i>
+                <span class="menu-title">Logout</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="main-panel">
+          <div class="content-wrapper">
+            <div class="row">
+              <div class="col-12">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title">Data Pribadi Mahasiswa</h4>
+                    <form class="form-sample">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <label for="exampleInputUsername1">Nomor Induk Mahasiswa</label>
+                            <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Nomor Induk Mahasiswa" value="09031282227001" disabled />
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <label for="exampleInputUsername2">Angkatan</label>
+                            <input type="text" class="form-control" id="exampleInputUsername2" placeholder="Angkatan" value="2022" disabled />
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <label for="exampleInputUsername3">Dosen Pembimbing Akademik</label>
+                            <input type="text" class="form-control" id="exampleInputUsername3" placeholder="Dosen Pembimbing Akademik" value="Dedy Kurniawan, M.Sc" disabled />
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <label for="exampleInputUsername4">Nama Mahasiswa</label>
+                            <input type="text" class="form-control" id="exampleInputUsername4" placeholder="Nama Mahasiswa" value="Bambang Pamungkas" />
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <label for="exampleInputUsername5">Alamat Mahasiswa</label>
+                            <input type="text" class="form-control" id="exampleInputUsername5" placeholder="Alamat Mahasiswa" value="Jl. PHDM 1" />
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <label for="exampleInputUsername6">Nomor Telepon Rumah</label>
+                            <input type="text" class="form-control" id="exampleInputUsername6" placeholder="Nomor Telepon Rumah" value="087794054245" />
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <label for="exampleInputUsername7">Tempat Lahir</label>
+                            <input type="text" class="form-control" id="exampleInputUsername7" placeholder="Tempat Lahir" value="Palembang" />
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <label for="exampleInputUsername7">Tanggal Lahir</label>
+                            <input type="date" class="form-control" id="exampleInputUsername7" placeholder="Tanggal Lahir" value="" />
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <label for="exampleSelectGender">Jenis Kelamin</label>
+                            <select class="form-control" id="exampleSelectGender">
+                              <option value="">Pilih Jenis Kelamin</option>
+                              <option value="laki-laki" selected>Laki-laki</option>
+                              <option value="Perempuan">Perempuan</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <label for="exampleSelectAgama">Agama</label>
+                            <select class="form-control" id="exampleSelectAgama">
+                              <option value="">Pilih Agama</option>
+                              <option value="islam" selected>Islam</option>
+                              <option value="kristen-protestan">Kristen Protestan</option>
+                              <option value="kristen-katolik">Kristen Katolik</option>
+                              <option value="buddha">Buddha</option>
+                              <option value="hindu">Hindu</option>
+                              <option value="konghucu">Konghucu</option>
+                              <option value="lainnya">Lainnya</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <label for="exampleSelectWarga">Kewarganegaraan</label>
+                            <select class="form-control" id="exampleSelectWarga">
+                              <option value="">Pilih Kewarganegaraan</option>
+                              <option value="wni" selected>Warga Negara Indonesia</option>
+                              <option value="wna">Warga Negara Asing</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <button type="submit" class="btn btn-primary mr-2">Simpan</button>
+                      <button class="btn btn-outline-primary">Reset</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- content-wrapper ends -->
+          <!-- partial:../../partials/_footer.html -->
+          <footer class="footer">
+            <div class="d-sm-flex justify-content-center justify-content-sm-between">
+              <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Copyright © 2022 By Fasilkom Unsri. All rights reserved.</span>
+            </div>
+            <div class="d-sm-flex justify-content-center justify-content-sm-between">
+              <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Sistem Informasi Akademik Universitas Sriwijaya V3.0</span>
+            </div>
+          </footer>
+          <!-- partial -->
+        </div>
+        <!-- main-panel ends -->
+      </div>
+      <!-- page-body-wrapper ends -->
+    </div>
+    <!-- container-scroller -->
+    <!-- plugins:js -->
+    <script src="../../vendors/js/vendor.bundle.base.js"></script>
+    <!-- endinject -->
+    <!-- Plugin js for this page -->
+    <script src="../../vendors/typeahead.js/typeahead.bundle.min.js"></script>
+    <script src="../../vendors/select2/select2.min.js"></script>
+    <!-- End plugin js for this page -->
+    <!-- inject:js -->
+    <script src="../../js/off-canvas.js"></script>
+    <script src="../../js/hoverable-collapse.js"></script>
+    <script src="../../js/template.js"></script>
+    <script src="../../js/settings.js"></script>
+    <script src="../../js/todolist.js"></script>
+    <!-- endinject -->
+    <!-- Custom js for this page-->
+    <script src="../../js/file-upload.js"></script>
+    <script src="../../js/typeahead.js"></script>
+    <script src="../../js/select2.js"></script>
+    <!-- End custom js for this page-->
+  </body>
+</html>
